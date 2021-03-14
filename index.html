@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+        <style type="text/css">
+             * {
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+            
+        body {
+            font-size: 20px;
+        }
+
+        .grid-container {
+            box-sizing: border-box;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            box-sizing: border-box;
+            padding: 0 16px;
+            font-family: 'Roboto';
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-around;
+            background-color: #31B189;
+            background-position: center;
+            height: 300px;
+        }
+
+        h1 {
+            font-size: 3vw;
+            font-weight: 500;
+        }
+        h2, h3{
+            font-weight: 400;
+            }
+            
+        h4{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+                
+            }
+            
+        nav {
+            box-sizing: border-box;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            font-family: 'Montserrat', sans-serif;
+            background: #7ACE67;
+        }
+
+        nav a {
+            color: #FFE3B3;
+        }
+
+        main {
+            padding: 140px 30px 5px 16px;
+            font-family: 'Montserrat', sans-serif;
+            background: #A4D8B4;
+        }
+
+        section {
+            width: 100%;
+            margin: 0 0 32px 0;
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            background: #A4D8B4;
+        }
+
+       
+        section figcaption {
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer {
+            padding: 0 16px;
+            width: 100%;
+            height: 200px;
+            font-family: 'Montserrat', sans-serif;
+            background: #A4D8B4;
+            }
+            
+        .xxss{
+            display: flex;
+            justify-content: space-around;
+        }
+        
+            @media only screen and (max-width: 600px) {
+            body {
+                background: green;
+            }
+        }
+
+
+        @media only screen and (min-width: 600px) {
+            body {
+                background: green;
+            }
+        }
+ 
+        @media only screen and (min-width: 768px) {
+            body {
+                background: blue;
+            }
+        }
+
+        @media only screen and (min-width: 992px) {
+            body {
+                background: orange;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            body {
+                background: red;
+            }
+        }
+     
+</style>
+</head>
+<body>
+   <header id="header">
+        <h1>Recursos interactius aplicats</h1>
+          <h2>2º G.P EASD Alcoi</h2>
+          <h3>Pablo Martí Soriano</h3>
+         
+       
+   </header>
+    <main>
+       
+        <section id="trabajos">
+            <h4>Mis trabajos</h4>
+          <nav>
+            <a href="https://pablomarti98.github.io/p0_RIA/">Trabajo_p0</a>
+            
+            </nav>
+            
+        </section>
+        
+    </main>
+    <footer class="footer">
+           <h4>Contactos</h4>
+            <div class="xxss">
+               <a href="mailto:martisp@easdalcoi.es">E-MAIL</a>
+                <a href="https://www.instagram.com/?hl=es">INSTAGRAM</a>
+                <a href="https://twitter.com/?lang=es">TWITTER</a>
+            </div>
+    </footer>
+</body>
+</html>
